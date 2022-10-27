@@ -1,0 +1,6 @@
+Flask==1.0.2
+Werkzeug==0.15.5
+requests
+gunicorn==20.0.0
+requests
+redis==4.1.3

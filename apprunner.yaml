@@ -1,0 +1,16 @@
+version: 1.0
+runtime: python3
+build:
+  commands:
+    build:
+      - pip install -r requirements.txt
+  env:
+    - name: FOO
+      value: "bar"
+run:
+  command: gunicorn server:app --log-level=debug
+  network:
+    port: 5000
+  env:
+    - name: FLASK_APP
+      value: server

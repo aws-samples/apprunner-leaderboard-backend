@@ -1,15 +1,18 @@
-## My Project
+## AppRunner Leaderboard Backend
+Note: This is not Production grade and simply meant as a demo
 
-TODO: Fill this README out!
 
-Be sure to:
+## Description
 
-* Change the title in this README
-* Edit your repository description on GitHub
+This project provisions the base layer infrastructure to demonstrate how AppRunner leverages a Private Service to interacts with Redis database to fetch data using VPC Connector.
 
-## Security
+## AWS Services
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## Deployment Instructions
+
+
+## Teardown Instructions
+- Go to AppRunner console and delete the service.
 
 ## License
 
