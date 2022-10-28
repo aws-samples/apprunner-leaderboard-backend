@@ -1,6 +1,5 @@
-## AppRunner Leaderboard Backend
+## App Runner Leaderboard Backend
 Note: This is not Production grade and simply meant as a demo
-
 
 ## Description
 We will be setting up a leaderboard application which is comprised of two microservices hosted on App Runner. The first microservice is a frontend UI application which has a public endpoint and the second microservice is a backend application which has a private endpoint. The frontend application communicates with the backend application to retrieve leaderboard data. The backend application retrieves the leaderboard data by communicating with an ElastiCache DB in a VPC. 
@@ -12,11 +11,8 @@ We will be setting up a leaderboard application which is comprised of two micros
 1. App Runner
 2. Elasticache Redis
 
-## Deployment Instructions
-<Blog post lik>
-
 ## Teardown Instructions
-- Go to AppRunner console and delete the service.
+Go to App Runner console and delete the service.
 
 ## License
 
