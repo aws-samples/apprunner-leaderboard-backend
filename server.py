@@ -13,7 +13,7 @@ def root():
   logging.basicConfig(level=logging.DEBUG)
   REDIS_URL = os.getenv('REDIS_URL')
   logging.debug("Getting redis path" + str(REDIS_URL))
-  r = redis.Redis(host=REDIS_URL, port=6379, db=0)
+  r = redis.Redis(host=REDIS_URL, port=9000, db=0)
   leaderboard_data = r.get('leaderboard_data')
 
   # Randomly change player scores
