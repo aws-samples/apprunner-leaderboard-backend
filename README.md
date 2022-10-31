@@ -11,8 +11,8 @@ We will be setting up a leaderboard application which is comprised of two micros
 1. App Runner
 2. Elasticache Redis
 
-## Teardown Instructions
-Go to App Runner console and delete the service.
+## Detailed Instructions
+https://aws.amazon.com/blogs/containers/deep-dive-on-aws-app-runner-private-services/
 
 ## License
 
