@@ -1,6 +1,6 @@
-Flask==1.0.2
-Werkzeug==0.15.5
-requests
+Flask==2.0.3
+jinja2==3.1.1
+Werkzeug==2.0.3
 gunicorn==20.0.0
 requests
 redis==4.1.3
